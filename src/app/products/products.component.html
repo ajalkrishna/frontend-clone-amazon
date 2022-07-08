@@ -1,0 +1,13 @@
+<div class="template bg-white pt-3 pb-3 mx-auto container">
+    <ng-content></ng-content>
+    <div class="row ">
+        <div class="col-6 g-2" *ngFor='let data of dataForDisplay'>
+            <div>
+                <img [src]='data.prodImage' class="w-100">
+                <p>{{data.prodName}} | {{data.price}}</p>
+            </div>
+        </div>
+    </div>
+    <div><a href="#" >See More Items</a></div>
+    
+</div>

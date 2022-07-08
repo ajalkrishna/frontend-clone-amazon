@@ -1,0 +1,25 @@
+
+#mainCarousel{
+
+    position: absolute;
+    z-index: -1;
+
+}
+.rowOne{
+    margin-top: 20rem;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar-nav li{
+    // margin-left: 2rem;
+    padding: .8rem 1.2rem;
+}
+.navbar-nav li:hover{
+    border: 1px solid white;
+}
+.input-group{
+    height: 2rem;
+    width: 45vw;
+}
